@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Projects\Hardware\Nibble\firmware\nibble_test\labels.tmp" -fI -W+ie -o "C:\Projects\Hardware\Nibble\firmware\nibble_test\nibble_test.hex" -d "C:\Projects\Hardware\Nibble\firmware\nibble_test\nibble_test.obj" -e "C:\Projects\Hardware\Nibble\firmware\nibble_test\nibble_test.eep" -m "C:\Projects\Hardware\Nibble\firmware\nibble_test\nibble_test.map" "C:\Projects\Hardware\Nibble\firmware\nibble_test\nibble_test.asm"
